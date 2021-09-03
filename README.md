@@ -6,4 +6,4 @@
 
 2 Поработать со смешанным API (в их API помимо ленты постов, такж присутствуют посты из Telegram, Twitter, реклама и т.п.)
 
-  • документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
+    • документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
