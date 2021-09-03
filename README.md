@@ -10,5 +10,10 @@
 
 ## Что использовал:
 • tableView для представления поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors и constraint
+
 • для создание нужного url использовать URLQueryItem
-• использовал URLSession
+
+• использовал URLSession, где данные приходят в background потоке
+
+• Для прокрутки ленты (infinite scroll/ pagination) использовал метод делегата willDisplay
+
