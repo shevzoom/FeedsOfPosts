@@ -6,9 +6,11 @@
 
 2 Поработать со смешанным API (в их API помимо ленты постов, такж присутствуют посты из Telegram, Twitter, реклама и т.п.)
 
-• документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
+- документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
 
-• картинки загружаются по роуту: 
+- макет для верстки ленты адаптировал на глаз [с официального приложения](https://apps.apple.com/ru/app/tjournal-новости-интернета/id683103523)
+
+- картинки загружаются по роуту: 
 https://leonardo.osnova.io/<uuid>
 
 ## Что использовал:
