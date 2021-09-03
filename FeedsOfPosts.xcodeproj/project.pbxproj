@@ -13,6 +13,8 @@
 		01C6C56526E23F9F0035D5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C6C56326E23F9F0035D5ED /* Main.storyboard */; };
 		01C6C56726E23FB10035D5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C6C56626E23FB10035D5ED /* Assets.xcassets */; };
 		01C6C56A26E23FB10035D5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C6C56826E23FB10035D5ED /* LaunchScreen.storyboard */; };
+		01C6C57426E240580035D5ED /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C6C57326E240580035D5ED /* NewsTableViewCell.swift */; };
+		01C6C57626E2409B0035D5ED /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C6C57526E2409B0035D5ED /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		01C6C56626E23FB10035D5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C6C56926E23FB10035D5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C6C56B26E23FB10035D5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C6C57326E240580035D5ED /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		01C6C57526E2409B0035D5ED /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				01C6C56626E23FB10035D5ED /* Assets.xcassets */,
 				01C6C56826E23FB10035D5ED /* LaunchScreen.storyboard */,
 				01C6C56B26E23FB10035D5ED /* Info.plist */,
+				01C6C57326E240580035D5ED /* NewsTableViewCell.swift */,
+				01C6C57526E2409B0035D5ED /* APICaller.swift */,
 			);
 			path = FeedsOfPosts;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				01C6C56226E23F9F0035D5ED /* ViewController.swift in Sources */,
 				01C6C55E26E23F9F0035D5ED /* AppDelegate.swift in Sources */,
+				01C6C57426E240580035D5ED /* NewsTableViewCell.swift in Sources */,
+				01C6C57626E2409B0035D5ED /* APICaller.swift in Sources */,
 				01C6C56026E23F9F0035D5ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
