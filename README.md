@@ -21,4 +21,8 @@ https://leonardo.osnova.io/<uuid>
 • использовал URLSession, где данные приходят в background потоке
 
 • Для прокрутки ленты (infinite scroll/ pagination) использовал метод делегата willDisplay
+ 
+• для переиспользования ячеек использовал метод dequeueReusableCell
+  
+  обновлял ячейки с помощью reloadData
 
