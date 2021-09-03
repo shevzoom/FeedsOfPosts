@@ -14,15 +14,25 @@
 https://leonardo.osnova.io/<uuid>
 
 ## Что использовал:
-• tableView для представления поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors и constraint
+• Кастомные tableView cell для отображения поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors и constraint
 
-• для создание нужного url использовать URLQueryItem
+• для создание нужного url использовал URLQueryItem
 
-• использовал URLSession, где данные приходят в background потоке
+• открыл URLSession, где данные приходят в background потоке
+ 
+• инициализировал init в структурах (Codable) для того, чтобы избежать nil при декодировании 
 
 • Для прокрутки ленты (infinite scroll/ pagination) использовал метод делегата willDisplay
  
 • для переиспользования ячеек использовал метод dequeueReusableCell
   
-  обновлял ячейки с помощью reloadData
+• обновлял ячейки с помощью reloadData, потому что это наиболее простой способ
+ 
+• обработка касаний с помощью UITapGestureRecognizer и далее передавал событие ViewController
+ 
+• все анимирование "распахивания" картинок вынес в отдельную функцию. Повторное касание уничтожает subView по очереди. Для blurEffect использовал autoresizingMask
 
+## Дополнительно  
+ IDE: Xcode 12.5 
+ macOS: 11.4
+ эмулятор iOS: 14.X
