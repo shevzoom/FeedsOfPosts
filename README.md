@@ -8,6 +8,9 @@
 
 • документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
 
+• картинки загружаются по роуту: 
+https://leonardo.osnova.io/<uuid>
+
 ## Что использовал:
 • tableView для представления поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors и constraint
 
