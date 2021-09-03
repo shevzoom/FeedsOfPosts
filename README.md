@@ -31,6 +31,12 @@ https://leonardo.osnova.io/<uuid>
 • обработка касаний с помощью UITapGestureRecognizer и далее передавал событие ViewController
  
 • все анимирование "распахивания" картинок вынес в отдельную функцию. Повторное касание уничтожает subView по очереди. Для blurEffect использовал autoresizingMask
+ 
+# 1
+![Screenshot 2021-08-09 at 01 41 59](https://user-images.githubusercontent.com/64494962/132016692-7b09b6ea-3151-4f83-a807-3c1132e476e1.png)
+ 
+# 2
+![Screenshot 2021-08-09 at 01 42 21](https://user-images.githubusercontent.com/64494962/132016826-4bd25ef5-68f8-48c5-8f2f-60480bdfc200.png)
 
 ## Дополнительно  
  IDE: Xcode 12.5 
