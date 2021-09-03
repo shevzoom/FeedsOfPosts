@@ -39,6 +39,6 @@ https://leonardo.osnova.io/<uuid>
 ![Screenshot 2021-08-09 at 01 42 21](https://user-images.githubusercontent.com/64494962/132016826-4bd25ef5-68f8-48c5-8f2f-60480bdfc200.png)
 
 ## Дополнительно  
- IDE: Xcode 12.5 
- macOS: 11.4
+ IDE: Xcode 12.5 |
+ macOS: 11.4 |
  эмулятор iOS: 14.X
