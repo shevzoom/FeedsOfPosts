@@ -14,7 +14,7 @@
 https://leonardo.osnova.io/<uuid>
 
 ## Что использовал:
-• Кастомные tableView cell для отображения поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors и constraint
+• Кастомные tableView cell для отображения поста, каждый элемент ячейки располагал программно с использованием Auto Layout anchors
 
 • для создание нужного url использовал URLQueryItem
 
