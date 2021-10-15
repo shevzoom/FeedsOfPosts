@@ -8,7 +8,7 @@
 
 - документация + роут [здесь](https://cmtt-ru.github.io/osnova-api/v2/swagger.html#/Timeline/getTimeline)
 
-- макет для верстки ленты адаптировал на глаз [с официального приложения](https://apps.apple.com/ru/app/tjournal-новости-интернета/id683103523)
+- макет для верстки ленты адаптировал [Figma](https://www.figma.com/file/vqUqwucMuLf7wFjw7ITwiv/Test-Feed?node-id=0%3A1)
 
 - картинки загружаются по роуту: 
 https://leonardo.osnova.io/<uuid>
